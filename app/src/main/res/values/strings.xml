@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">MyRun</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="name">Name</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_in_button">SIGN IN</string>
+    <string name="sign_up">Sign up</string>
+    <string name="register">REGISTER</string>
+    <string name="change_button">CHANGE</string>
+    <string name="female_button">FEMALE</string>
+    <string name="male_button">MALE</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone</string>
+    <string name="major">Major</string>
+    <string name="dartmouth_class">Dartmouth Class</string>
+    <string name="profile_pic_picker">Profile Picture Picker</string>
+    <string name="take_from_camera">Take from camera</string>
+    <string name="select_from_gallery">Select from gallery</string>
+    <string name="field_required">This field is required</string>
+
+    <!-- setting activity -->
+    <string name="act_setting_bar_title">Settings</string>
+    <string name="act_setting_grp_application_title">Application Settings</string>
+    <string name="act_setting_privacy_txt_1">Privacy Setting</string>
+    <string name="act_setting_privacy_txt_2">Posting your records anonymously</string>
+    <string name="act_setting_unit_txt_1">Unit Preference</string>
+    <string name="act_setting_unit_txt_2">Select the units</string>
+    <string name="act_setting_webpage_txt_1">Webpage</string>
+    <string name="act_setting_webpage_txt_2">http://cs.dartmouth.edu/~campbell/cs65/cs65.html</string>
+    <string name="act_setting_grp_account_title">Account Settings</string>
+    <string name="act_setting_signout_txt_1">Sign out</string>
+
+    <!-- Strings related to Settings -->
+    <string-array name="pref_unit_list_titles">
+        <item>Metric (Kilometers)</item>
+        <item>Imperial (Miles)</item>
+    </string-array>
+    <string-array name="pref_unit_list_values">
+        <item>kms</item>
+        <item>miles</item>
+    </string-array>
+
+    <string name="pref_setting_key_privacy">pref_setting_key_privacy</string>
+    <string name="pref_setting_key_unit">pref_setting_key_unit</string>
+    <string name="pref_setting_key_webpage">pref_setting_key_webpage</string>
+    <string name="pref_setting_key_signout">pref_setting_key_signout</string>
+    <!-- Strings related to Settings -->
+
+
+    <!-- Profile activity -->
+    <string name="act_profile_bar_title">Profile</string>
+
+
+    <!-- Start fragment -->
+    <string name="start_input_type_spin_prompt">Input Type</string>
+    <string-array name="input_types">
+        <item>Manual</item>
+        <item>GPS</item>
+        <item>Automatic</item>
+    </string-array>
+    <string name="start_input_type_manual">Manual</string>
+    <string name="start_input_type_gps">GPS</string>
+    <string name="start_input_type_automatic">Automatic</string>
+    <string name="start_activity_types_spin_prompt">Activity Type</string>
+    <string-array name="activity_types">
+        <item>Running</item>
+        <item>Walking</item>
+        <item>Standing</item>
+        <item>Cycling</item>
+        <item>Hiking</item>
+        <item>Downhill Skiing</item>
+        <item>Cross-Country Skiing</item>
+        <item>Snowboarding</item>
+        <item>Skating</item>
+        <item>Swimming</item>
+        <item>Mountain Biking</item>
+        <item>Wheelchair</item>
+        <item>Elliptical</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <!-- Bottom Navigation -->
+    <string name="nav_start_title">Start</string>
+    <string name="nav_history_title">History</string>
+    <string name="nav_board_title">Board</string>
+
+    <!-- Manual Entry Activity -->
+    <string name="act_manual_entry_bar_title">Manual Entry Activity</string>
+    <string name="manual_activity">Activity</string>
+    <string name="manual_date">Date</string>
+    <string name="manual_time">Time</string>
+    <string name="manual_duration">Duration</string>
+    <string name="manual_distance">Distance</string>
+    <string name="manual_calorie">Calorie</string>
+    <string name="manual_heartbeat">Heartbeat</string>
+    <string name="manual_comment">Comment</string>
+
+
+    <!-- Map Activity -->
+    <string name="act_map_bar_title">Map</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_start"
+        android:icon="@drawable/ic_play_circle_filled_gray_24dp"
+        android:title="@string/nav_start_title" />
+
+    <item
+        android:id="@+id/navigation_history"
+        android:icon="@drawable/ic_restore_gray_24dp"
+        android:title="@string/nav_history_title" />
+
+    <item
+        android:id="@+id/navigation_board"
+        android:icon="@drawable/ic_format_list_bulleted_gray_24dp"
+        android:title="@string/nav_board_title" />
+
+</menu>
+

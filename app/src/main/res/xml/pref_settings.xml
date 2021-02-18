@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/act_setting_grp_application_title">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/pref_setting_key_privacy"
+            android:title="@string/act_setting_privacy_txt_1"
+            android:summary="@string/act_setting_privacy_txt_2"/>
+
+        <ListPreference
+            android:defaultValue="kms"
+            android:key="@string/pref_setting_key_unit"
+            android:entries="@array/pref_unit_list_titles"
+            android:entryValues="@array/pref_unit_list_values"
+            android:title="@string/act_setting_unit_txt_1"
+            android:summary="@string/act_setting_unit_txt_2"/>
+
+        <Preference
+            android:key="@string/pref_setting_key_webpage"
+            android:title="@string/act_setting_webpage_txt_1"
+            android:summary="@string/act_setting_webpage_txt_2"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/act_setting_grp_account_title">
+        <Preference
+            android:key="@string/pref_setting_key_signout"
+            android:title="@string/act_setting_signout_txt_1"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
